@@ -73,7 +73,7 @@ Ademas se genera la documentación en formato markdown.
 ## Ejecucion con React
 
 ```bash
-docker build --no-cache -t mascotas-react https://raw.githubusercontent.com/nmarsollier/mascotas_react/master/react/Dockerfile
+docker build --no-cache -t mascotas-react https://raw.githubusercontent.com/nmarsollier/mascotas_react/master/Dockerfile
 
 # Mac || Windows
 docker run -it -d --name mascotas-react -p 4200:80 mascotas-react
