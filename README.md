@@ -70,7 +70,9 @@ El microservicio muestra la documentación como archivos estáticos si se abre e
 
 Ademas se genera la documentación en formato markdown.
 
-## Ejecucion con React
+## Docker
+
+Esta es una version de docker para producción :
 
 ```bash
 docker build --no-cache -t mascotas-react https://raw.githubusercontent.com/nmarsollier/mascotas_react/master/Dockerfile
