@@ -75,13 +75,13 @@ Ademas se genera la documentación en formato markdown.
 Esta es una version de docker para producción :
 
 ```bash
-docker build --no-cache -t mascotas-react https://raw.githubusercontent.com/nmarsollier/mascotas_react/master/Dockerfile
+docker build --no-cache -t mascotas-node https://raw.githubusercontent.com/nmarsollier/mascotas_node/master/Dockerfile
 
 # Mac || Windows
-docker run -it -d --name mascotas-react -p 4200:80 mascotas-react
+docker run -it -d --name mascotas-node -p 3000:3000 mascotas-node
 
 # Linux
-docker run --add-host host.docker.internal:172.17.0.1 -it -d --name mascotas-react -p 4200:80 mascotas-react
+docker run --add-host host.docker.internal:172.17.0.1 -it -d --name mascotas-node -p 3000:3000 mascotas-node
 ```
 
-[Test](http://localhost:4200/)
+[Test](http://localhost:3000/)
