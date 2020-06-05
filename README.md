@@ -1,5 +1,7 @@
 # Mascotas
 
+Backend en node para el [proyecto mascotas](https://github.com/nmarsollier/mascotas)
+
 Abrir ventana de comandos en el folder node y ejecutar :
 
 ```bash
